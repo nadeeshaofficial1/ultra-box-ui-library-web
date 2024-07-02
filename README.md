@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Ultra-Box UI Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## A versatile UI library built with React, TypeScript, TailwindCSS, and Storybook, providing essential components like buttons, inputs, and text elements.
 
-Currently, two official plugins are available:
+### Features
+#### React & TypeScript: Leveraging the power of React and TypeScript for robust and scalable component development.
+##### TailwindCSS: Utilizing TailwindCSS for flexible and customizable styling options.
+##### Storybook: Integrated with Storybook for interactive component development and documentation.
+### Components
+##### Button: Various styles and sizes to suit different use cases.
+##### Input: Versatile input fields for text, password, and more.
+##### Text: Styled text components for body, heading, and other text elements.
+### Installation & Usage
+##### Easily install and integrate components into your React projects. Import the necessary components and start building your UI with consistency and ease.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Development
+#### Clone the repository, install dependencies and use Storybook to view and test components locally. Contributions are welcome, following the guidelines in the CONTRIBUTING.md file.
